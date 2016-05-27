@@ -1,4 +1,17 @@
 /**************************
+Nav Bar
+**************************/
+
+.navbar-inverse {
+  background-color: #6495ED;
+  border-width: 2px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+}
+
+/**************************
  Main Heading
 **************************/
 
@@ -13,23 +26,23 @@ Page Sytling
 ****************************/
 
 body {
-  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-}
-
-.sidebar {
-
+  background: linear-gradient(to right, #7171C6, #BBFFFF);
 }
 
 .main-window {
-  background-color: blue;
 }
 
 /*************************
 Thumbnail list
 **************************/
 
+.sidebar h2 {
+  padding-left: 1em;
+}
+
 .thumbnail-list {
   list-style-type: none;
+  margin-right: 0.5em;
 }
 
 .thumbnail {
