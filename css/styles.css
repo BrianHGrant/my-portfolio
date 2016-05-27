@@ -29,9 +29,6 @@ body {
   background: linear-gradient(to right, #7171C6, #BBFFFF);
 }
 
-.main-window {
-}
-
 /*************************
 Thumbnail list
 **************************/
@@ -50,4 +47,33 @@ Thumbnail list
   border-width: medium;
   border-radius: 2%;
   border-color: black;
+}
+
+
+/***********************
+Main Window
+************************/
+
+.main-window {
+  margin-top: 2em;
+}
+
+.carousel-area {
+  background-color: grey
+  border: 2px, black, solid;
+}
+
+#about-me {
+  margin-left: 1em;
+}
+
+#about-me h3 {
+  background-color: #6495ED;
+  padding: .3em;
+  border: 2px black solid;
+}
+
+.about-box {
+  background-color: #00FFFF;
+  border: 1px #ddcef2 solid;
 }
