@@ -1,0 +1,40 @@
+/**************************
+ Main Heading
+**************************/
+
+#landing-header h1 {
+  text-align: right;
+  margin-right: 2em;
+}
+
+
+/***************************
+Page Sytling
+****************************/
+
+body {
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+.sidebar {
+
+}
+
+.main-window {
+  background-color: blue;
+}
+
+/*************************
+Thumbnail list
+**************************/
+
+.thumbnail-list {
+  list-style-type: none;
+}
+
+.thumbnail {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 2%;
+  border-color: black;
+}
